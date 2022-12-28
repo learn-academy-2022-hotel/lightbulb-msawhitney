@@ -1,11 +1,26 @@
-import React from "react"
+// import React, { useState } from "react"
+// import "./App.css";
 
-const LightSwitch = () => {
-  return (
-    <>
-      <div className="lightbulb"></div>
-    </>
-  )
-}
+// const LightSwitch = (props) => {
 
-export default LightSwitch
+//     const [state, setState] = useState (props.initialState);
+ 
+//   const toggleState = () => {
+
+//     setState(state === "ON" ? "OFF" : "ON");
+//   };
+
+//   const style = {
+//     backgroundColor: state === "ON" ? "yellow" : "white", 
+//   };
+ 
+//   return (
+
+//       <div className="box" style={style} onClick={toggleState}>
+//         {state}
+//       </div>
+
+//   );
+// };
+
+// export default LightSwitch;
