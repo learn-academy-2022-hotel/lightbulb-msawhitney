@@ -10,7 +10,6 @@ import LightSwitch from "./components/LightSwitch";
 //     </div>
 //   );
 // };
-// This is a good comment
 const App = (props) => {
   //Declare a variable for state called changeText
   //Set it's initial value to true
