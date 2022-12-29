@@ -10,7 +10,6 @@ const LightSwitch = (props) => {
     return setChangeText(!changeText);
   };
  
-
     return (<div className={`box ${changeText ? "white" : "yellow"}`}
     onClick={() => handleChange()}
     >

@@ -1,25 +1,19 @@
 h1 {
   text-align: center;
 }
-
-.lightbulb {
-  border: 2px solid black;
-  width: 200px;
-  height: 200px;
-  margin: 0;
-  text-align: center;
-
-
+.container {
+  display:flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
 }
 .box {
   border: 2px solid black;
   width: 200px;
   height: 200px;
   margin: 0;
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 100px;
+  text-align: center;
 }
 
 .box.white {

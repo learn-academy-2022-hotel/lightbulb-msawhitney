@@ -22,17 +22,20 @@ const App = (props) => {
 //     //A ternary operator is used
 //     // the value of changeText is T or F. If it is T, the box shows white. If it is false, the box shows yellow
 //     //also, if changeText is T, the box shows the word "off", if it is false, the box shows "on"
-  
-  <div>
-    <LightSwitch></LightSwitch>
-    <LightSwitch></LightSwitch>
-    <LightSwitch></LightSwitch>
-    <LightSwitch></LightSwitch>
-    <LightSwitch></LightSwitch>
-    <LightSwitch></LightSwitch>
-  </div>
-
-      
+  <div className="container">
+  <div className="box">
+    <LightSwitch></LightSwitch></div>
+    <div className="box">
+    <LightSwitch></LightSwitch></div>
+    <div className="box">
+    <LightSwitch></LightSwitch></div>
+    <div className="box">
+    <LightSwitch></LightSwitch></div>
+    <div className="box">
+    <LightSwitch></LightSwitch></div>
+    <div className="box">
+    <LightSwitch></LightSwitch></div>
+  </div>    
   );
 }
 
