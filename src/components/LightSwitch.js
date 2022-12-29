@@ -1,18 +1,22 @@
-// import React, { useState } from "react"
-// import "./App.css";
+import React, { useState } from "react"
 
-// const LightSwitch = (props) => {
+const LightSwitch = (props) => {
 
-//     const [state, setState] = useState (props.initialState);
+  //Declare a variable for state called changeText
+  //Set it's initial value to true
+  let [changeText, setChangeText] = useState(props.initialState);
+  //create a function called handleChange that toggles the value of changeText
+  const handleChange = () => {
+    return setChangeText(!changeText);
+  };
  
-//   const toggleState = () => {
 
-//     setState(state === "ON" ? "OFF" : "ON");
-//   };
+    return (<div className={`box ${changeText ? "white" : "yellow"}`}
+    onClick={() => handleChange()}
+    >
+      {changeText ? "OFF" : "ON"}
 
-//   const style = {
-//     backgroundColor: state === "ON" ? "yellow" : "white", 
-//   };
+     </div>);
  
 //   return (
 
@@ -21,6 +25,6 @@
 //       </div>
 
 //   );
-// };
+};
 
-// export default LightSwitch;
+export default LightSwitch;
