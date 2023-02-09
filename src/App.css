@@ -2,8 +2,28 @@ h1 {
   text-align: center;
 }
 
-.lightbulb {
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.box {
+  
   border: 2px solid black;
   width: 200px;
   height: 200px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 200px;
+
+}
+
+.box.white {
+  background-color: white;
+}
+
+.box.yellow {
+  background-color: yellow;
+
 }
